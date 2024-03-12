@@ -4,43 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">    
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/src/style.css">
 
     <title>About me</title>
 </head>
 <body>
-    <a href="/">Back to homepage</a>
-    <a href="/photos.html">Back to my photos</a>
-    <h1> Otto Bolota </h1>
-    <h2 class="sub-contact">Sometimes a Frech Bulldog, sometimes a baby.</h2>
+    <!--navegation header-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #F6EDDC;">
+        <div class="container-fluid">
+            <a class="navbar-brand ml-2" href="#" style="color:#57679e;"> <strong>Otto Bollota</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="photos.html">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html#talkto">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--end navegation header-->
+    <h1> Otto Bollota </h1>
     <h3 class="resume">
         <div>🐶 20.01.2015</div>
-        <div>📍 Based in Düsseldorf, Germany</div>
-        <div>🌏I had cookies at: 🇵🇹 🇪🇸 🇫🇷 🇵🇾 🇧🇷 🇲🇽 🇳🇱 🇩🇪</div>
+        <div>🏡 Based in Düsseldorf, Germany</div>
+        <div>I already had a 🥐 at: 🇵🇹 🇪🇸 🇫🇷 🇵🇾 🇧🇷 🇲🇽 🇳🇱 🇩🇪</p></div>
     </h3>
 
-    <div class="text-wrap">
-    <p>I was born in Brazil, and my mom adopted me a few months later. I used to live in a house with two cats, Zara and Zion. Zion was my best friend and taught me everything about cats, including how to climb the dinner table, drink water in the fountain, and stare at humans.
-    Mom married, and now I have a dad; he is wonderful! We play like dogs, sleep during the afternoon with the cozy blanket,
-    and listen to music—sometimes we even play together. It's a secret, but we are writing music about treats together.
-    Mom is nice; she makes me catch my toys after play. I love to sleep with her, make a mess after she cleans everything,
-    and studying coding together.
-    We love to travel together. When I moved from Brazil, it was my first time traveling by plane. Now I have gone to
-    countless places to visit—the hotels are the best part—and a big cozy bed just for me (that sometimes I share with mom
-    and dad).
-    My life is very cool. I'm a happy little croissant. 🥐
-    </p>
+    <div class="about-text">
+    <p class="myperfil">I was born in Brazil, and my mom adopted me a few months later. I used to live in a house with two cats, Zara and Zion. Zion was my best friend and taught me everything about cats, including how to climb the dinner table, drink water in the fountain, and stare at humans. </p>
+    <p class="myperfil"> Mom married, and now I have a dad; he is wonderful! We play like dogs, sleep during the afternoon with the cozy blanket, and listen to music—sometimes we even play together. It's a secret, but we are writing music about treats together. </p>
+    <p class="myperfil"> Mom is nice; she makes me catch my toys after play. I love to sleep with her, make a mess after she cleans everything, and studying coding together. </p>
+    <p class="myperfil">We love to travel together. When I moved from Brazil, it was my first time traveling by plane. Now I have gone to countless places to visit—the hotels are the best part—and a big cozy bed just for me (that sometimes I share with mom and dad).</p>
+    <p class="myperfil">My life is very cool. I'm a happy little croissant. 🥐 </p>
     </div>
 
     <div class="mail-contact">
-    <h2 class="talkto">Talk to mom</h2>
-    <a href="mailto:hicamillacardoso" class="email">hicamillacardoso@gmail.com</a>
+    <h2 id="talkto"> 👩🏽‍💻 Talk to mom</h2>
+    <a href="mailto:hicamillacardoso" class="mail">hicamillacardoso@gmail.com</a>
     </div>
 
-    <div>
-        <p class="follow-photos">Follow me</p>
-        <div class="button-ig">
-            <a href="https://www.instagram.com/ottobolota" class="ig-button" target="_blank">Instagram</a>
 </body>
 </html>
