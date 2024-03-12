@@ -11,7 +11,7 @@ body{
    margin:20px auto;
    background-color: #f0e2c561;
 }
-/*photos*/
+
 h1,h2,h3,h4{
     text-align: center;
     margin:0;
@@ -25,7 +25,6 @@ h1{
     white-space: normal;
     font-weight: 700;
     padding: 30px;
-    
 }
 
 h3{
@@ -46,6 +45,7 @@ p{
     font-size: 15px;
 }
 
+/* ajust text photos*/
 .follow-photos{
     font-size: 20px;
 }
@@ -54,7 +54,22 @@ p{
     font-size: 100px !important;
 }
 
-/*buttons first page //text-transform: uppercase//*/
+/* ajust text contact*/
+.sub-contact{ /*h2*/
+    color:var(--color-blue);
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.8;
+}
+
+.resume{/*h3*/
+    color:var(--color-blue);
+    font-size: 25px;
+
+}
+
+/*buttons homepage */
 .button{
     display:flex;
     margin-top:40px;
@@ -116,6 +131,8 @@ p{
     transform: scale(1.04);
     border: none;
 }
+
+/*buttons photo page*/
 
 .button-ig{
     display: flex;
