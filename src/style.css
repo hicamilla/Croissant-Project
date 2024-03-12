@@ -11,7 +11,7 @@ body{
    margin:20px auto;
    background-color: #f0e2c561;
 }
-
+/*photos*/
 h1,h2,h3,h4{
     text-align: center;
     margin:0;
@@ -36,7 +36,6 @@ h3{
     padding-top: 30px;
 }
 
-
 p{
     color: var(--color-blue);
     font-weight: 600;
@@ -45,7 +44,14 @@ p{
     padding-bottom: 20px;
     line-height: 1.8;
     font-size: 15px;
+}
 
+.follow-photos{
+    font-size: 20px;
+}
+
+.text-photos{
+    font-size: 100px !important;
 }
 
 /*buttons first page //text-transform: uppercase//*/
@@ -65,7 +71,6 @@ p{
     text-decoration: none;
     flex: 0.2;
 }
-
 
 .contact{
     color:white;
@@ -106,6 +111,47 @@ p{
 }
 
 .photos:hover {
+    color: white;
+    background-color: var(--color-yellow);
+    transform: scale(1.04);
+    border: none;
+}
+
+.button-ig{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+.button-ig a {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1;
+    margin: 20px;
+    border-radius: 28px;
+    padding: 17px 20px;
+    text-decoration: none;
+    flex: 0.2;
+}
+
+.ig-button{
+    color:white;
+    background-color:var(--color-green);
+    box-shadow: var(--box-shadow);
+    color: white;
+    background-color: var(--color-green);
+    box-shadow: var(--box-shadow);
+    transition-property: background-color, color, box-shadow, filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 600;
+}
+
+.ig-button:hover {
     color: white;
     background-color: var(--color-yellow);
     transform: scale(1.04);
