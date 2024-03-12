@@ -9,7 +9,7 @@
 
 body{
    margin:20px auto;
-
+   background-color: #f0e2c561;
 }
 
 h1,h2,h3,h4{
@@ -18,10 +18,34 @@ h1,h2,h3,h4{
 }
 
 h1{
+    color:var(--color-green);
     font-size: 160px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    padding: 30px;
+    
 }
+
+h3{
+    color:var(--color-blue);
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+
 p{
+    color: var(--color-blue);
+    font-weight: 600;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    line-height: 1.8;
+    font-size: 15px;
+
 }
 
 /*buttons first page //text-transform: uppercase//*/
